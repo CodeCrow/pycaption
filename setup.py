@@ -7,7 +7,7 @@ README_PATH = os.path.join(
     'README.rst')
 
 dependencies = [
-    'beautifulsoup4>=4.2.1,<4.5.0',
+    'beautifulsoup4>=4.2.1',
     'lxml>=3.2.3',
     'cssutils>=0.9.10',
     'future',
@@ -20,9 +20,9 @@ setup(
     version='1.1.0',
     description='Closed caption converter',
     long_description=open(README_PATH).read(),
-    author='Joe Norton',
-    author_email='joey@nortoncrew.com',
-    url='https://github.com/pbs/pycaption',
+    author='Rob Archer',
+    author_email='robert_archer@wgbh.org',
+    url='https://github.com/CodeCrow/pycaption',
     install_requires=dependencies,
     packages=find_packages(),
     include_package_data=True,
