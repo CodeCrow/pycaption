@@ -46,7 +46,7 @@ class SinglePositioningDFXPWriter(DFXPWriter):
     def write(self, captions_set, force=''):
         """Writes a DFXP file using the positioning provided in the initializer
 
-        :type captions_set: pycaption.base.CaptionSet
+        :type captions_set: captionconvert.base.CaptionSet
         :param force: only write this language, if available in the CaptionSet
         :rtype: unicode
         """
@@ -60,8 +60,8 @@ class SinglePositioningDFXPWriter(DFXPWriter):
         """Return a caption where all the positioning information was
         replaced from positioning
 
-        :type caption_set: pycaption.base.CaptionSet
-        :rtype: pycaption.base.CaptionSet
+        :type caption_set: captionconvert.base.CaptionSet
+        :rtype: captionconvert.base.CaptionSet
         """
         # If SinglePositioningDFXPWriter would modify the state of the caption
         # set, any writer using the same caption_set thereafter would be

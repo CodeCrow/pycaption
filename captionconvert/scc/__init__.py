@@ -29,7 +29,7 @@ Commands:
     942f - [EOC] - display the buffer on the screen - End Of Caption
     ... - [PAC] - Preamble address code (can set positioning and style)
         - All the PACs are specified by the first and second byte combined
-        from pycaption.scc.constants.PAC_BYTES_TO_POSITIONING_MAP
+        from captionconvert.scc.constants.PAC_BYTES_TO_POSITIONING_MAP
 
     9429 - [RDC] - Resume Direct Captioning
     94a4 - (in CEA-608-E: 1424) - [DER] Delete to End of Row
@@ -84,10 +84,10 @@ from copy import deepcopy
 
 import six
 
-from pycaption.base import (
+from captionconvert.base import (
     BaseReader, BaseWriter, CaptionSet, CaptionNode,
 )
-from pycaption.exceptions import CaptionReadNoCaptions, InvalidInputError
+from captionconvert.exceptions import CaptionReadNoCaptions, InvalidInputError
 from .constants import (
     HEADER, COMMANDS, SPECIAL_CHARS, EXTENDED_CHARS, CHARACTERS,
     MICROSECONDS_PER_CODEWORD, CHARACTER_TO_CODE,

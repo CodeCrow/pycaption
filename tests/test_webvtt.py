@@ -1,6 +1,6 @@
 import unittest
 
-from pycaption import (
+from captionconvert import (
     WebVTTReader, WebVTTWriter, SAMIReader, DFXPReader,
     CaptionReadNoCaptions, CaptionReadError, CaptionReadSyntaxError
 )

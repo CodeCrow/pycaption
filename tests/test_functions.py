@@ -1,7 +1,7 @@
 import unittest
 
-from pycaption import DFXPReader
-from pycaption.base import merge_concurrent_captions
+from captionconvert import DFXPReader
+from captionconvert.base import merge_concurrent_captions
 from tests.samples.dfxp import DFXP_WITH_CONCURRENT_CAPTIONS
 
 

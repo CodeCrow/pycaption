@@ -1,6 +1,6 @@
 import unittest
 
-from pycaption.base import CaptionList
+from captionconvert.base import CaptionList
 
 
 class CaptionListTestCase(unittest.TestCase):

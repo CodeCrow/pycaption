@@ -19,7 +19,7 @@ from .exceptions import (
 # A WebVTT timing line has both start/end times and layout related settings
 # (referred to as 'cue settings' in the documentation)
 # The following pattern captures [start], [end] and [cue settings] if existent
-from pycaption.geometry import HorizontalAlignmentEnum
+from captionconvert.geometry import HorizontalAlignmentEnum
 
 TIMING_LINE_PATTERN = re.compile('^(\S+)\s+-->\s+(\S+)(?:\s+(.*?))?\s*$')
 TIMESTAMP_PATTERN = re.compile('^(\d+):(\d{2})(:\d{2})?\.(\d{3})')

@@ -1,8 +1,8 @@
 import unittest
 import six
 
-from pycaption import SAMIReader, CaptionReadNoCaptions
-from pycaption.geometry import HorizontalAlignmentEnum, Size, UnitEnum
+from captionconvert import SAMIReader, CaptionReadNoCaptions
+from captionconvert.geometry import HorizontalAlignmentEnum, Size, UnitEnum
 
 from tests.samples.sami import (
     SAMPLE_SAMI, SAMPLE_SAMI_EMPTY, SAMPLE_SAMI_SYNTAX_ERROR,

@@ -43,7 +43,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = 'pycaption'
+project = 'captionconvert'
 copyright = '2012, PBS.org (available under the Apache License, Version 2.0)'
 
 # The version info for the project you're documenting, acts as replacement for

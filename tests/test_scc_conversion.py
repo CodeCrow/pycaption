@@ -1,6 +1,6 @@
 import unittest
 
-from pycaption import (
+from captionconvert import (
     SCCReader, SCCWriter, SRTReader, SRTWriter, DFXPWriter, WebVTTWriter)
 
 from tests.samples.dfxp import (

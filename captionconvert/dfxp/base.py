@@ -264,7 +264,7 @@ class DFXPWriter(BaseWriter):
     def write(self, caption_set, force=''):
         """Converts a CaptionSet into an equivalent corresponding DFXP file
 
-        :type caption_set: pycaption.base.CaptionSet
+        :type caption_set: captionconvert.base.CaptionSet
         :param force: only use this language, if available in the caption_set
 
         :rtype: unicode
@@ -1062,7 +1062,7 @@ class RegionCreator(object):
         :return: (unicode, dict)
         """
         # More intelligent people would have used an elem.parent.parent..parent
-        # pattern, but pycaption is not yet structured for this. 3 params
+        # pattern, but captionconvert is not yet structured for this. 3 params
         # is not too much of a bother. If someone wants to make the structure
         # tree-like, they can easily change this.
         layout_info = None

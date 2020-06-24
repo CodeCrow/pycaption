@@ -3,7 +3,7 @@ import unittest
 from builtins import str
 import six
 
-from pycaption import (
+from captionconvert import (
     WebVTTReader, WebVTTWriter, SRTWriter, SAMIWriter, DFXPWriter)
 
 from tests.samples.dfxp import SAMPLE_DFXP

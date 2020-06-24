@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
 import unittest
 from six import text_type
-from pycaption.geometry import UnitEnum, HorizontalAlignmentEnum, VerticalAlignmentEnum
-from pycaption.scc.specialized_collections import (InstructionNodeCreator,
+from captionconvert.geometry import UnitEnum, HorizontalAlignmentEnum, VerticalAlignmentEnum
+from captionconvert.scc.specialized_collections import (InstructionNodeCreator,
                                                    TimingCorrectingCaptionList)
 
-from pycaption import SCCReader, CaptionReadNoCaptions
-from pycaption.scc.state_machines import DefaultProvidingPositionTracker
+from captionconvert import SCCReader, CaptionReadNoCaptions
+from captionconvert.scc.state_machines import DefaultProvidingPositionTracker
 
 from tests.samples.scc import (
     SAMPLE_SCC_PRODUCES_CAPTIONS_WITH_START_AND_END_TIME_THE_SAME,
@@ -90,7 +90,7 @@ class SCCReaderTestCase(unittest.TestCase):
             Style nodes should be deprecated in favor of another model, so this
             function is expected to go away.
 
-            :type node: pycaption.CaptionNode
+            :type node: captionconvert.CaptionNode
             :rtype: bool
             """
             if not node.type_ == node.STYLE:
@@ -315,7 +315,7 @@ class InterpretableNodeCreatorTestCase(unittest.TestCase):
 
 
 class CaptionDummy(object):
-    """Mock for pycaption.base.Caption
+    """Mock for captionconvert.base.Caption
     """
     def __init__(self, start=0, end=0, nodes=(1, 2)):
         self.nodes = nodes

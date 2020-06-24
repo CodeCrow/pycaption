@@ -1,8 +1,8 @@
 import unittest
 
-from pycaption import DFXPReader, CaptionReadNoCaptions
-from pycaption.geometry import UnitEnum, HorizontalAlignmentEnum, VerticalAlignmentEnum
-from pycaption.exceptions import CaptionReadSyntaxError, InvalidInputError, CaptionReadError
+from captionconvert import DFXPReader, CaptionReadNoCaptions
+from captionconvert.geometry import UnitEnum, HorizontalAlignmentEnum, VerticalAlignmentEnum
+from captionconvert.exceptions import CaptionReadSyntaxError, InvalidInputError, CaptionReadError
 
 from tests.samples.dfxp import (
     SAMPLE_DFXP, SAMPLE_DFXP_EMPTY, SAMPLE_DFXP_SYNTAX_ERROR,

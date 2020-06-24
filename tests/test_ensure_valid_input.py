@@ -1,8 +1,8 @@
 import unittest
 
-from pycaption import DFXPReader, SAMIReader, SCCReader, SRTReader, WebVTTReader
+from captionconvert import DFXPReader, SAMIReader, SCCReader, SRTReader, WebVTTReader
 
-from pycaption.exceptions import InvalidInputError
+from captionconvert.exceptions import InvalidInputError
 
 class ReaderTestCase(unittest.TestCase):
 

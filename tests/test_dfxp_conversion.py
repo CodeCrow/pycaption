@@ -6,12 +6,12 @@ from bs4 import BeautifulSoup
 from six import text_type
 import six
 
-from pycaption import (
+from captionconvert import (
     DFXPReader, DFXPWriter, SRTWriter, SAMIWriter, WebVTTWriter)
 
-from pycaption.dfxp.extras import LegacyDFXPWriter
+from captionconvert.dfxp.extras import LegacyDFXPWriter
 
-from pycaption.dfxp.base import (
+from captionconvert.dfxp.base import (
     DFXP_DEFAULT_STYLE, DFXP_DEFAULT_STYLE_ID, DFXP_DEFAULT_REGION,
     DFXP_DEFAULT_REGION_ID, _recreate_style, _convert_layout_to_attributes
 )

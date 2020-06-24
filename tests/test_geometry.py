@@ -1,6 +1,6 @@
 import unittest
 
-from pycaption.geometry import Size, Point, Stretch, Padding, UnitEnum, Layout
+from captionconvert.geometry import Size, Point, Stretch, Padding, UnitEnum, Layout
 
 class IsValidGeometryObjectTestCase(unittest.TestCase):
 
