@@ -16,13 +16,13 @@ dependencies = [
 ]
 
 setup(
-    name='pycaption',
+    name='captionconvert',
     version='1.1.1',
     description='Closed caption converter',
     long_description=open(README_PATH).read(),
     author='Rob Archer',
     author_email='robert_archer@wgbh.org',
-    url='https://github.com/CodeCrow/pycaption',
+    url='https://github.com/CodeCrow/pycaption-convert',
     install_requires=dependencies,
     packages=find_packages(),
     include_package_data=True,

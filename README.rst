@@ -1,9 +1,9 @@
-py-caption
+pycaption-convert
 ==========
 
 |Build Status|
 
-``pycaption`` is a caption reading/writing module. Use one of the given Readers
+``pycaption-convert`` is a caption reading/writing module. Use one of the given Readers
 to read content into a CaptionSet object, and then use one of the Writers to
 output the CaptionSet into captions of your desired format.
 
